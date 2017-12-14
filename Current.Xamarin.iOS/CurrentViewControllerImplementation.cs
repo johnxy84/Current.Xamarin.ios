@@ -1,13 +1,18 @@
 ﻿using UIKit;
 
-namespace Current.Xamarin.iOS
+namespace Xamarin.Plugin
 {
-    public class Current
+    /// <summary>
+    /// Implementation for Feature
+    /// </summary>
+    public class CurrentViewControllerImplementation : ICurrentViewController
     {
         /// <summary>
-        /// Returns the current viewcontroller in the Hierachy of ViewControllers
+        /// Gets or sets the ViewController.
         /// </summary>
-        public static UIViewController CurrentViewController
+        /// <value>The activity.</value>
+
+        public UIViewController ViewController
         {
             get
             {

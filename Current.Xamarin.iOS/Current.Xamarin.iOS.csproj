@@ -8,9 +8,9 @@
     <ProjectGuid>{170DF06F-F0A1-4EFC-B82F-845F5924094B}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Current.Xamarin.iOS</RootNamespace>
+    <RootNamespace>Xamarin.Plugin</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Current.Xamarin.iOS</AssemblyName>
+    <AssemblyName>Xamarin.Plugin</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,7 +38,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="Current.cs" />
+    <Compile Include="CurrentViewController.cs" />
+    <Compile Include="CurrentViewControllerImplementation.cs" />
+    <Compile Include="ICurrentViewController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
