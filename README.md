@@ -2,6 +2,9 @@
 
 Get the current ViewController being displayed to the user.
 
-Call Current.CurrentViewController wherever in your xamarin.ios app
+Include the namespace 
+using Xamarin.Plugin
 
-var viewcontroller = Current.ViewController;
+Call CurrentViewController.Current.ViewController wherever in your xamarin.ios app
+
+var viewcontroller = CurrentViewController.Current.ViewController;
